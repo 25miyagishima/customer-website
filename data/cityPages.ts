@@ -6,7 +6,7 @@ export const cityPages = {
     province: "British Columbia",
 
     seo: {
-      title: "Lighting Design in Summerland | Okanagan Lighting",
+      title: "Lighting Design in Summerland",
       description:
         "Thoughtfully designed lighting for homes, hospitality spaces, wineries, and gathering environments throughout Summerland and the South Okanagan.",
     },
@@ -92,7 +92,7 @@ export const cityPages = {
     province: "British Columbia",
 
     seo: {
-      title: "Lighting Design in Penticton | Okanagan Lighting",
+      title: "Lighting Design in Penticton",
       description:
         "Thoughtfully designed lighting for Penticton homes, renovations, wineries, breweries, hospitality spaces, and gathering environments throughout the South Okanagan.",
     },
@@ -178,7 +178,7 @@ export const cityPages = {
   province: "British Columbia",
 
   seo: {
-    title: "Lighting Design in Naramata | Okanagan Lighting",
+    title: "Lighting Design in Naramata",
     description:
       "Lighting design for Naramata homes, wineries, tasting rooms, vineyard properties, hospitality spaces, and gathering environments along the Naramata Bench.",
   },
@@ -264,7 +264,7 @@ export const cityPages = {
   province: "British Columbia",
 
   seo: {
-    title: "Lighting Design in Kelowna | Okanagan Lighting",
+    title: "Lighting Design in Kelowna",
     description:
      "Lighting designed for the way Kelowna properties are actually used - from hospitality spaces and lakefront gathering areas to renovated interiors, patios, and guest-focused environments.",
   },
@@ -350,7 +350,7 @@ export const cityPages = {
     province: "British Columbia",
 
     seo: {
-      title: "Lighting Design in Osoyoos | Okanagan Lighting",
+      title: "Lighting Design in Osoyoos",
       description:
         "Lighting design for Osoyoos lake properties, vacation homes, hospitality spaces, patios, pathways, and gathering environments throughout the South Okanagan.",
     },
@@ -436,7 +436,7 @@ export const cityPages = {
     province: "British Columbia",
 
     seo: {
-      title: "Lighting Design in Peachland | Okanagan Lighting",
+      title: "Lighting Design in Peachland",
       description:
         "Lighting design for Peachland hillside homes, lakeview properties, renovations, patios, pathways, and gathering environments throughout the Central Okanagan.",
     },
