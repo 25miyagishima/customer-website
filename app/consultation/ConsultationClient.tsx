@@ -72,9 +72,7 @@ export default function ConsultationClient() {
             >
               <h2 className="text-xl font-light">{item.title}</h2>
 
-              <p className="mt-4 leading-7 text-white/60">
-                {item.text}
-              </p>
+              <p className="mt-4 leading-7 text-white/60">{item.text}</p>
             </div>
           ))}
         </div>
@@ -105,7 +103,8 @@ export default function ConsultationClient() {
             onSubmit={async (e) => {
               e.preventDefault();
 
-              const formData = new FormData(e.currentTarget);
+              const form = e.currentTarget;
+              const formData = new FormData(form);
 
               const payload = {
                 name: formData.get("name"),
@@ -127,16 +126,12 @@ export default function ConsultationClient() {
                 });
 
                 if (!response.ok) {
-                  throw new Error(
-                    "Failed to submit consultation request"
-                  );
+                  throw new Error("Failed to submit consultation request");
                 }
 
-                alert(
-                  "Consultation request submitted successfully."
-                );
+                form.reset();
 
-                e.currentTarget.reset();
+                alert("Consultation request submitted successfully.");
               } catch (error) {
                 console.error(error);
 
@@ -186,11 +181,7 @@ export default function ConsultationClient() {
               </option>
 
               {projectTypes.map((type) => (
-                <option
-                  key={type}
-                  value={type}
-                  className="text-black"
-                >
+                <option key={type} value={type} className="text-black">
                   {type}
                 </option>
               ))}
@@ -205,21 +196,10 @@ export default function ConsultationClient() {
                 Estimated timeline
               </option>
 
-              <option className="text-black">
-                As soon as possible
-              </option>
-
-              <option className="text-black">
-                Within 1–3 months
-              </option>
-
-              <option className="text-black">
-                Within 3–6 months
-              </option>
-
-              <option className="text-black">
-                Planning ahead
-              </option>
+              <option className="text-black">As soon as possible</option>
+              <option className="text-black">Within 1–3 months</option>
+              <option className="text-black">Within 3–6 months</option>
+              <option className="text-black">Planning ahead</option>
             </select>
 
             <textarea
