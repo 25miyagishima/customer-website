@@ -51,8 +51,7 @@ export function HeroSection() {
           </h1>
 
           <p className="mt-6 text-base leading-7 text-[#625b52] sm:text-lg sm:leading-8">
-            Thoughtful indoor and outdoor lighting designed around atmosphere,
-            comfort, and the way each space is lived in.
+           Thoughtful indoor and outdoor lighting designed around atmosphere, comfort, and the way each space is lived in — professionally planned and installed throughout the Okanagan.
           </p>
 
           <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:gap-4">

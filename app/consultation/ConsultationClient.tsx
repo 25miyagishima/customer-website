@@ -93,8 +93,14 @@ export default function ConsultationClient() {
             </h2>
 
             <p className="mt-5 leading-7 text-white/60">
-              This form will send your consultation request directly to the
-              Okanagan Lighting team for review.
+             From design consultation and fixture selection through professional
+             installation and final walkthrough, every project is approached with
+             the same attention to detail.
+            </p>
+
+            <p className="mt-4 leading-7 text-white/60">
+             Share a few details about your project and we'll review the space,
+             goals, and potential next steps before reaching out.
             </p>
           </div>
 

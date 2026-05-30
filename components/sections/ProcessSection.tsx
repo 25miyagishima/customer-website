@@ -34,7 +34,7 @@ export function ProcessSection() {
           <SectionLabel>Process</SectionLabel>
 
           <h2 className="mt-4 text-4xl font-light leading-tight tracking-[-0.04em] text-[#24221f] md:text-5xl">
-            Thoughtful planning from consultation to final refinement.
+            Every lighting plan is informed by years of hands-on electrical experience and carried through installation with the same attention to detail.
           </h2>
         </div>
 
