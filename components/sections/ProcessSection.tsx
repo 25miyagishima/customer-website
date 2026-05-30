@@ -33,9 +33,9 @@ export function ProcessSection() {
         <div>
           <SectionLabel>Process</SectionLabel>
 
-          <h2 className="mt-4 text-4xl font-light leading-tight tracking-[-0.04em] text-[#24221f] md:text-5xl">
-            Every lighting plan is informed by years of hands-on electrical experience and carried through installation with the same attention to detail.
-          </h2>
+          <h2 className="mt-3 text-2xl font-light leading-tight tracking-[-0.03em] text-[#24221f] md:text-3xl">
+           Every lighting plan is informed by years of hands-on electrical experience and carried through installation with the same attention to detail.
+         </h2>
         </div>
 
         <div className="space-y-8">
