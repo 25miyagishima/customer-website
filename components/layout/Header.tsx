@@ -59,7 +59,7 @@ export function Header() {
 
         <div className="hidden md:block">
           <ButtonLink href="/consultation" className="px-5 py-2.5">
-            Consultation
+            Request a Consultation
           </ButtonLink>
         </div>
 
@@ -80,9 +80,7 @@ export function Header() {
             className="mx-auto flex max-w-7xl flex-col gap-4 text-[#4f4942]"
             aria-label="Mobile navigation"
           >
-            <NavigationLinks
-              onNavigate={() => setMenuOpen(false)}
-            />
+            <NavigationLinks onNavigate={() => setMenuOpen(false)} />
 
             <ButtonLink
               href="/consultation"

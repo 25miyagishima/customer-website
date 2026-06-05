@@ -3,11 +3,12 @@
 import Link from "next/link";
 
 const projectTypes = [
-  "Residential Landscape Lighting",
+  "Residential Lighting",
   "Patio / Outdoor Living",
   "Pathway / Entry Lighting",
   "Winery / Hospitality",
   "Builder / Designer Project",
+  "Smaller Lighting Upgrade",
   "Other",
 ];
 
@@ -27,17 +28,23 @@ export default function ConsultationClient() {
 
           <div className="max-w-3xl">
             <p className="mb-4 text-sm uppercase tracking-[0.35em] text-[#C29552]">
-              Consultation
+              The Consultation
             </p>
 
             <h1 className="text-4xl font-light tracking-tight sm:text-5xl lg:text-6xl">
-              Thoughtful lighting begins with a clear conversation.
+              Better lighting starts with a conversation.
             </h1>
 
             <p className="mt-6 max-w-2xl text-base leading-7 text-white/70 sm:text-lg sm:leading-8">
-              Share a few details about your property, goals, and timeline.
-              We’ll review your project and guide you toward the right lighting
-              approach for the space.
+              Every project begins by understanding the people, property, and
+              goals behind it.
+            </p>
+
+            <p className="mt-4 max-w-2xl text-base leading-7 text-white/70 sm:text-lg sm:leading-8">
+              The consultation is an opportunity to explore ideas, discuss
+              priorities, identify opportunities, and gather the information
+              needed to make informed lighting decisions before installation
+              begins.
             </p>
 
             <a
@@ -55,15 +62,15 @@ export default function ConsultationClient() {
           {[
             {
               title: "Project Discovery",
-              text: "We learn about the property, how the space is used, and what atmosphere you want to create.",
+              text: "We discuss the property, how the space is used, and what you hope to achieve.",
             },
             {
-              title: "Lighting Direction",
-              text: "We consider focal points, pathways, architecture, safety, visibility, and overall mood.",
+              title: "Lighting Opportunities",
+              text: "Together, we explore areas where lighting may improve functionality, comfort, visibility, safety, and overall experience.",
             },
             {
-              title: "Proposal Planning",
-              text: "From there, we prepare a clear path forward with scope, fixture direction, and next steps.",
+              title: "Planning & Next Steps",
+              text: "We review the information gathered and establish a clear path forward for the project.",
             },
           ].map((item) => (
             <div
@@ -85,22 +92,23 @@ export default function ConsultationClient() {
         <div className="mx-auto grid max-w-6xl gap-10 rounded-[2rem] border border-white/10 bg-white/[0.04] p-5 sm:gap-12 sm:p-10 lg:grid-cols-[0.8fr_1.2fr]">
           <div>
             <p className="text-sm uppercase tracking-[0.3em] text-[#C29552]">
-              Start Here
+              Start the Conversation
             </p>
 
             <h2 className="mt-4 text-3xl font-light sm:text-4xl">
-              Tell us about your lighting project.
+              Tell us about your project.
             </h2>
 
             <p className="mt-5 leading-7 text-white/60">
-             From design consultation and fixture selection through professional
-             installation and final walkthrough, every project is approached with
-             the same attention to detail.
+              Whether you're exploring ideas, planning a renovation, improving
+              an outdoor living space, or simply looking for guidance, the
+              consultation is an opportunity to better understand the property,
+              goals, and opportunities before decisions are made.
             </p>
 
             <p className="mt-4 leading-7 text-white/60">
-             Share a few details about your project and we'll review the space,
-             goals, and potential next steps before reaching out.
+              Share a few details about your project and we'll review the
+              information before reaching out to discuss potential next steps.
             </p>
           </div>
 
@@ -211,7 +219,7 @@ export default function ConsultationClient() {
             <textarea
               name="message"
               className="min-h-36 w-full resize-none rounded-2xl border border-white/10 bg-white/5 p-4 text-white outline-none placeholder:text-white/40 focus:border-[#C29552]"
-              placeholder="Tell us about the property, goals, or areas you would like illuminated."
+              placeholder="Tell us about the property, goals, or areas you would like to improve with lighting."
               required
             />
 

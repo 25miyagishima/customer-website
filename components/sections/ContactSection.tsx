@@ -12,17 +12,17 @@ export function ContactSection() {
         </p>
 
         <h2 className="mx-auto mt-4 max-w-2xl text-5xl font-light tracking-[-0.05em] md:text-6xl">
-          Request a consultation.
+          Start the conversation.
         </h2>
 
         <p className="mx-auto mt-8 max-w-2xl text-lg leading-8 text-[#d8d0c5]">
-          Thoughtfully planned and professionally installed lighting
-          environments built on years of hands-on electrical experience.
+          Whether you're planning a larger installation or a smaller lighting
+          upgrade, every project begins with a conversation.
         </p>
 
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <ButtonLink href="/consultation" variant="gold">
-            Consultation
+            Request a Consultation
           </ButtonLink>
 
           <ButtonLink href="#services" variant="outlineDark">

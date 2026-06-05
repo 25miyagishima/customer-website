@@ -21,13 +21,17 @@ export function ServiceAreaSection() {
             <SectionLabel>Proudly serving</SectionLabel>
 
             <h2 className="mt-4 text-4xl font-light tracking-[-0.04em] text-[#24221f] md:text-5xl">
-              The Okanagan.
+              Rooted in Summerland. Serving the Okanagan.
             </h2>
 
             <p className="mt-6 max-w-xl text-lg leading-8 text-[#625b52]">
-              Thoughtfully designed lighting for residential properties,
-              outdoor living spaces, wineries, breweries, and hospitality
-              settings throughout the Okanagan.
+              Proudly based in Summerland, we serve homeowners, businesses, and
+              hospitality spaces throughout the Okanagan.
+            </p>
+
+            <p className="mt-4 max-w-xl text-lg leading-8 text-[#625b52]">
+              Every project is an opportunity to build relationships, improve
+              our craft, and contribute to the communities we call home.
             </p>
           </div>
 

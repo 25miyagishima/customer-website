@@ -3,23 +3,23 @@ import { SectionLabel } from "@/components/ui/SectionLabel";
 const PROCESS_ITEMS = [
   {
     number: "01",
-    title: "Walkthrough",
-    text: "We walk the property together, listen carefully, and understand how you want the space to feel before moving into the planning stage.",
+    title: "Understand",
+    text: "Every project begins with a conversation. We take time to understand the property, how the space is used, and what matters most to the people who live, work, or gather there.",
   },
   {
     number: "02",
-    title: "Plan & Design",
-    text: "Behind the scenes, each project is thoughtfully planned around the property, the surrounding environment, and the way the space will be experienced into the evening.",
+    title: "Identify",
+    text: "We evaluate opportunities, challenges, and areas where lighting can improve functionality, comfort, safety, atmosphere, or the overall experience of a space.",
   },
   {
     number: "03",
-    title: "Installation",
-    text: "With the planning complete, installation is handled carefully and efficiently with attention to the details that shape the final environment.",
+    title: "Plan",
+    text: "Before installation begins, we develop a clear lighting plan that aligns goals, expectations, budget, and long-term performance.",
   },
   {
     number: "04",
-    title: "Refine",
-    text: "We walk through the finished space together, making final refinements to ensure everything feels natural to the environment around it.",
+    title: "Install",
+    text: "With a plan in place, we execute the work professionally, focusing on craftsmanship, communication, and attention to detail throughout the installation process.",
   },
 ];
 
@@ -34,8 +34,8 @@ export function ProcessSection() {
           <SectionLabel>Process</SectionLabel>
 
           <h2 className="mt-3 text-2xl font-light leading-tight tracking-[-0.03em] text-[#24221f] md:text-3xl">
-           Every lighting plan is informed by years of hands-on electrical experience and carried through installation with the same attention to detail.
-         </h2>
+            Better lighting starts with understanding the people, property, and goals behind every project.
+          </h2>
         </div>
 
         <div className="space-y-8">

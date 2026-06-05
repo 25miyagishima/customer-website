@@ -2,16 +2,16 @@ import { SectionLabel } from "@/components/ui/SectionLabel";
 
 const SERVICE_ITEMS = [
   {
-    title: "Interior Lighting",
-    text: "Designed to feel natural to the space throughout the day and into the evening.",
+    title: "Homes",
+    text: "Lighting designed around daily living, comfort, and the way a property is experienced both inside and out.",
   },
   {
-    title: "Outdoor Lighting",
-    text: "Designed to complement landscapes and the way outdoor environments are experienced into the evening.",
+    title: "Outdoor Living",
+    text: "Patios, pathways, gathering spaces, and landscapes that remain inviting, functional, and enjoyable long after the sun goes down.",
   },
   {
-    title: "Planning & Installation",
-    text: "Thoughtful planning, organized installation, and lighting systems designed around long-term functionality and comfort.",
+    title: "Hospitality Environments",
+    text: "Lighting that helps create memorable guest experiences while supporting the character and purpose of the space.",
   },
 ];
 
@@ -19,11 +19,11 @@ export function ServicesSection() {
   return (
     <section id="services" className="px-5 py-20 md:px-8 md:py-28">
       <div className="mx-auto max-w-6xl">
-        <div className="mb-14 max-w-2xl">
+        <div className="mb-14 max-w-3xl">
           <SectionLabel>Services</SectionLabel>
 
           <h2 className="mt-4 text-4xl font-light leading-tight tracking-[-0.04em] text-[#24221f] md:text-5xl">
-            Indoor and outdoor lighting, thoughtfully planned.
+            Where thoughtful lighting makes a difference.
           </h2>
         </div>
 

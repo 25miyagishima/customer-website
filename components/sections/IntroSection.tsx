@@ -8,21 +8,26 @@ export function IntroSection() {
           <SectionLabel>Approach</SectionLabel>
 
           <h2 className="mt-4 max-w-md text-4xl font-light leading-tight tracking-[-0.04em] text-[#24221f] md:text-5xl">
-            Environments designed for the experiences we share.
+            Built on planning, communication, and craftsmanship.
           </h2>
         </div>
 
         <div className="space-y-6 text-lg leading-8 text-[#625b52]">
           <p>
-            From residential properties and outdoor living spaces to wineries,
-            breweries, and hospitality environments, lighting should support
-            the atmosphere of a space without overpowering it.
+            We believe better projects start with clear conversations and
+            thoughtful preparation.
           </p>
 
           <p>
-            Every project is thoughtfully planned to feel natural to the
-            environment around it, creating spaces that feel warm, balanced,
-            and lived in.
+            By understanding how a property is used and what matters most to the
+            people who live, work, or gather there, we can develop lighting
+            solutions that feel intentional from the beginning.
+          </p>
+
+          <p>
+            From consultation through installation, our goal is to create a
+            professional experience that is organized, transparent, and focused
+            on long-term results.
           </p>
         </div>
       </div>

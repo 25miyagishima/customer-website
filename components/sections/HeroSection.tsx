@@ -47,11 +47,18 @@ export function HeroSection() {
           </p>
 
           <h1 className="mt-5 text-4xl font-light leading-[1.03] tracking-[-0.05em] text-[#24221f] sm:text-5xl md:text-7xl">
-            Lighting design for Okanagan living.
+            Better lighting starts before installation.
           </h1>
 
           <p className="mt-6 text-base leading-7 text-[#625b52] sm:text-lg sm:leading-8">
-           Thoughtful indoor and outdoor lighting designed around atmosphere, comfort, and the way each space is lived in — professionally planned and installed throughout the Okanagan.
+            We help homeowners, businesses, and hospitality spaces make informed
+            lighting decisions through thoughtful planning and professional
+            installation.
+          </p>
+
+          <p className="mt-4 text-base leading-7 text-[#625b52] sm:text-lg sm:leading-8">
+            Proudly serving communities throughout the Okanagan from our home
+            base in Summerland.
           </p>
 
           <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:gap-4">

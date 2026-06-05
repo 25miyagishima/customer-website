@@ -37,13 +37,19 @@ export function PortfolioSection() {
           <SectionLabel>Portfolio</SectionLabel>
 
           <h2 className="mt-4 text-4xl font-light leading-tight tracking-[-0.04em] text-[#24221f] md:text-5xl">
-            Recent lighting environments.
+            Real Projects. Real Spaces.
           </h2>
 
           <p className="mt-6 max-w-2xl text-lg leading-8 text-[#625b52]">
-            A growing collection of residential properties, landscapes, patios,
-            gathering spaces, wineries, breweries, and hospitality environments
-            shaped through light.
+            From residential properties and outdoor living spaces to hospitality
+            environments, each project presents its own opportunities,
+            challenges, and goals.
+          </p>
+
+          <p className="mt-4 max-w-2xl text-lg leading-8 text-[#625b52]">
+            The portfolio below highlights a growing collection of projects
+            throughout the Okanagan, each shaped through thoughtful planning,
+            clear communication, and professional installation.
           </p>
         </div>
 
@@ -69,13 +75,13 @@ export function PortfolioSection() {
 
             <div className="rounded-[2rem] border border-[#ddd3c6] bg-[#f1ebe3] p-8 md:p-10">
               <p className="text-sm tracking-[0.16em] text-[#83786c]">
-                More environments coming soon
+                More Projects Coming Soon
               </p>
 
               <p className="mt-5 max-w-md text-lg leading-8 text-[#625b52]">
                 The portfolio will continue to grow as new residential,
-                hospitality, and outdoor living environments are completed
-                across the Okanagan.
+                hospitality, and outdoor living projects are completed
+                throughout the Okanagan.
               </p>
 
               <ButtonLink
